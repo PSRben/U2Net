@@ -39,7 +39,7 @@ def prepare_training_data(args):
 
 
 def train(args, training_data_loader, validate_data_loader):
-    model = U2Net(32).to(args.device)
+    model = U2Net(args.channels).to(args.device)
     summaries(model, grad=True)
 
     criterion = nn.L1Loss(size_average=True).to(args.device)
@@ -90,6 +90,7 @@ def train(args, training_data_loader, validate_data_loader):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--channels', type=int, default=32, help='Feature channels')
     parser.add_argument('--epoch', type=int, default=500, help='Epochs')
     parser.add_argument('--batch_size', type=int, default=16, help='Batch Size')
     parser.add_argument('--lr', type=float, default=1e-3, help='Learning rate')

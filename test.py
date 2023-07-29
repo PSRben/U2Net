@@ -9,7 +9,7 @@ from utils.load_test_data import load_h5py_with_hp
 
 def test(args):
     # load data
-    model = U2Net(dim=32).to(args.device).eval()
+    model = U2Net(dim=args.channels).to(args.device).eval()
     weight = torch.load(args.weight)
     model.load_state_dict(weight)
     ms, _, pan, _ = load_h5py_with_hp(args.file_path)
@@ -57,6 +57,7 @@ def test(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--channels', type=int, default=32, help='Feature channels')
     parser.add_argument('--file_path', type=str, default='', help='Absolute path of the test file (in h5 format).')
     parser.add_argument('--save_dir', type=str, default='', help='Absolute path of the save dir.')
     parser.add_argument('--weight', type=str, default='weights/200000_iter.pth', help='Path of the weight.')
