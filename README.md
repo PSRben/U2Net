@@ -21,14 +21,14 @@ The S2Block merges feature maps from different sources in a sufficient manner.
 - Quantitative evalutaion results on WV3 datasets of PanCollection.
 
 ![wv3](show_image/wv3.png#pic_center)
-- Quantitative evalutaion results on the WV2 dataset of PanCollection.
+- Qualitative evalutaion results on the WV3 dataset of PanCollection.
 
-![wv2](show_image/wv2.png#pic_center)
+![wv3](show_image/wv3_visual.png#pic_center)
 
 ## HISR
-- Quantitative evalutaion results on the CAVE dataset.
+- Qualitative evalutaion results on the CAVE dataset.
 
-![cave](show_image/cave.png#pic_center)
+![cave](show_image/cave_visual.png#pic_center)
 
 # Get Started
 ## Dataset
