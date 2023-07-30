@@ -44,9 +44,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-- This code is for pansharpening. If you want to apply our method to HISR and other image fusion tasks, please modify the input channels in the "model/u2net.py" file.
+- This code is for pansharpening. If you want to apply our method to HISR and other image fusion tasks, please modify the input channels in [this file](model/u2net.py).
 
-- The model weight trained on the WV3 dataset for 200000 iterations can be found in the "weights" folder.
+- The model weight trained on the WV3 dataset for 200000 iterations can be found [here](weights/).
 
 ```shell
 # train
