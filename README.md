@@ -56,7 +56,18 @@ python test.py --file_path ./path_to_data/name.h5 --save_dir ./path_to_dir --wei
 ```
 
 # Citation
-Will be added soon.
+```shell
+@ARTICLE{pengacmmm2023,
+title={U2Net: A General Framework with Spatial-Spectral-Integrated Double U-Net for Image Fusion},
+author={Siran Peng, Chenhao Guo, Xiao Wu, Liang-Jian Deng},
+journal={ACM International Conference on Multimedia (ACMMM)},
+volume={},
+number={},
+pages={},
+year={2023},
+doi={10.1145/3581783.3612084}
+}
+```shell
 
 # Contact
 We are glad to hear from you. If you have any questions, please feel free to contact siran_peng@163.com.
