@@ -57,16 +57,22 @@ python test.py --file_path ./path_to_data/name.h5 --save_dir ./path_to_dir --wei
 
 # Citation
 ```shell
-@ARTICLE{pengacmmm2023,
-title={U2Net: A General Framework with Spatial-Spectral-Integrated Double U-Net for Image Fusion},
-author={Siran Peng, Chenhao Guo, Xiao Wu, Liang-Jian Deng},
-journal={ACM International Conference on Multimedia (ACMMM)},
-volume={},
-number={},
-pages={},
-year={2023},
-doi={10.1145/3581783.3612084}
+@inproceedings{10.1145/3581783.3612084,
+author = {Peng, Siran and Guo, Chenhao and Wu, Xiao and Deng, Liang-Jian},
+title = {U2Net: A General Framework with Spatial-Spectral-Integrated Double U-Net for Image Fusion},
+year = {2023},
+isbn = {9798400701085},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581783.3612084},
+doi = {10.1145/3581783.3612084},
+booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},
+pages = {3219–3227},
+numpages = {9},
+location = {Ottawa ON, Canada},
+series = {MM '23}
 }
+
 ```
 
 # Contact
